@@ -16,8 +16,8 @@ to this section's matching END comment to see page-specific styles.
 
 /* Our default values set as CSS variables */
 :root {
-  --color-bg: #69F7BE;
-  --color-text-main: #000000;
+  background-image:image(Titanic1);
+  --color-text-main:#29AAE1;
   --color-text-header: #2800FF;
   --color-primary: #FFFF00;
   --wrapper-height: 87vh;
