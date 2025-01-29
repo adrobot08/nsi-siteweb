@@ -11,3 +11,14 @@ body
   --font-family-header: "HK Grotesk";
   text-align:center
 }
+
+img 
+{
+  transition : .5s ease-in;
+  filter : grayscale(100%)
+}
+
+img::hover
+{
+  filter : grayscale(0%)
+}
