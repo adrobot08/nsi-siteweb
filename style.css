@@ -18,7 +18,7 @@ to this section's matching END comment to see page-specific styles.
 body
 {
   background-image:url("");
-  --color-text-main:#29AAE1;
+    color:#1616B5;
   --color-text-header: #2800FF;
   --color-primary: #FFFF00;
   --wrapper-height: 87vh;
@@ -26,4 +26,5 @@ body
   --image-margin: 3rem;
   --font-family: "HK Grotesk";
   --font-family-header: "HK Grotesk";
+  text-align:center
 }
