@@ -1,6 +1,6 @@
 body
 {
-  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/iceberg-5163649_1280.jpg");
+  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/Photographe-paysage-clermont-ferrand.jpg?v=1738577297124");
   color:#1616B5;
   --color-text-header: #2800FF;
   --color-primary: #FFFF00;
@@ -30,7 +30,7 @@ img::hover
     padding: 30px;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    max-width: 1100px;
+    max-width: 1800px;
     /* Increased width */
     width: 100%;
     min-height: 400px;
@@ -43,9 +43,17 @@ img::hover
     /* Larger image */
     height: 200px;
     /* Larger image */
-    border-radius: 12px;
+    border-radius: 10px;
     object-fit: cover;
-    border: 4px solid white;
-    margin-right: 30px;
+    border: 2px solid white;
+    margin-right: 10px;
     /* More space between image and text */
+}
+
+/* Info Section */
+.info-section {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    /* Ensure text section takes available space */
 }
