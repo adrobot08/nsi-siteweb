@@ -10,6 +10,7 @@ body
   --font-family: "HK Grotesk";
   --font-family-header: "HK Grotesk";
   text-align:center;
+  background-repeat:no-repeat ;
 }
 
 img 
@@ -26,8 +27,9 @@ img:hover
 .resume-container {
     display: flex;
     align-items: flex-start;
-    background-image: url("");
-    padding: 40px;
+    background-image: url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/iceberg-5163649_1280.jpg?v=1738577094286");
+    background-repeat:no-repeat ;
+  padding: 40px;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     max-width: 1800px;
