@@ -1,7 +1,7 @@
 body
 {
   background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/Photographe-paysage-clermont-ferrand.jpg?v=1738577297124");
-  color:#1616B5;
+  color:#058fd0;
   --color-text-header: #2800FF;
   --color-primary: #FFFF00;
   --wrapper-height: 87vh;
@@ -27,7 +27,7 @@ img::hover
     display: flex;
     align-items: flex-start;
     background: rgba(255, 255, 255, 0.9);
-    padding: 30px;
+    padding: 40px;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     max-width: 1800px;
@@ -35,6 +35,7 @@ img::hover
     width: 100%;
     min-height: 400px;
     /* Adding some minimum height to make sure the box is large */
+  color:#1616B5;
 }
 
 /* Image Section */
@@ -48,12 +49,4 @@ img::hover
     border: 2px solid white;
     margin-right: 10px;
     /* More space between image and text */
-}
-
-/* Info Section */
-.info-section {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    /* Ensure text section takes available space */
 }
