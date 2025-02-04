@@ -30,13 +30,11 @@ img:hover
     background-image: url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/iceberg-5163649_1280.jpg?v=1738577094286");
     background-repeat:no-repeat ;
   padding: 40px;
-    border-radius: 12px;
+    border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    max-width: 1800px;
-    /* Increased width */
+    max-width: 1200px;
     width: 100%;
     min-height: 400px;
-    /* Adding some minimum height to make sure the box is large */
   color:#1616B5;
 }
 
