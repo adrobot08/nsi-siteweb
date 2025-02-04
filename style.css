@@ -68,10 +68,26 @@ img:hover
 /*2éme conteneur*/
 .resume-container3
 {
-  
+  display: flex;
+    align-items: flex-start;
+    background-image: url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/OIP.jpg?v=1738692161799");
+    background-repeat:no-repeat ;
+  padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    width: 100%;
+    min-height: 400px;
 }
 
 .image-section2
 {
-  
+  width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid white;
+    margin-right: 10px;
+
+  flex-direction:column
 }
