@@ -70,7 +70,7 @@ img:hover
 {
   display: flex;
     align-items: flex-start;
-    background-image :url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/OIP.jpg?v=1738847423407");
+    background-image :url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/photo-1437751059337-ea72d4f73fcf.jpg?v=1738577213381");
     background-repeat:no-repeat ;
   padding: 40px;
     border-radius: 20px;
@@ -80,7 +80,7 @@ img:hover
     min-height: 400px;
 }
 
-.image-section2
+.image-section2 img
 {
   width: 400px;
     height: 200px;
