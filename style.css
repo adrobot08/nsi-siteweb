@@ -3,7 +3,7 @@
 {
   display: flex;
   align-items: flex-start;
-  max-width: 1200px;
+  max-width: 1320px;
   flex-direction:linear;
   gap:20px;
   justify-content:center;
@@ -57,6 +57,7 @@ img:hover
 .intro
 {
   color:#8bddb1;
+  size:15px;
 }
 .texte1
 {
@@ -71,12 +72,12 @@ img:hover
 .txt2
 {
   color:#8bddb1;
-  font-size:30;
+  font-size:15px;
 }
 .credit
 {
   color:#8bddb1;
-  font-size:12px;
+  font-size:10px;
 }
 
 
