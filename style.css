@@ -47,7 +47,17 @@ img:hover
 {
   filter : grayscale(0%)
 }
-
+/*titres*/
+.titre
+{
+  font-size:20px;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.4);
+}
+/*entre header et div-box*/
+.intro
+{
+  color:;
+}
 .texte1
 {
   font-size:15;
@@ -59,11 +69,7 @@ img:hover
   color:#1616B5;
 }
 
-/*texte*/
-.intro
-{
-  color:black;
-}
+
 
 
 
