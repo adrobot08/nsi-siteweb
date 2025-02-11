@@ -50,8 +50,8 @@ img:hover
 /*titres*/
 .titre
 {
-  font-size:20px;
-  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.4);
+  font-size:50px;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
 }
 /*entre header et div-box*/
 .intro
@@ -67,6 +67,11 @@ img:hover
 {
   font-size:20;
   color:#1616B5;
+}
+.txt2
+{
+  color:white;
+  font-size:30;
 }
 
 
