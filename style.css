@@ -3,7 +3,7 @@
 {
   display: flex;
   align-items: flex-start;
-  margin-righ:20px;
+  padding:20px;
   max-width: 1200px;
   flex-direction:linear;
   gap:20px;
@@ -13,7 +13,7 @@
   display:flex;
   align-items:flex-start;
   background-color:#f0c653;
-  color:#ff0000;
+  color:#f3f3f3;
   padding:10px;
   min-width:10px;
   min-height:10px;
@@ -58,6 +58,16 @@ img:hover
   font-size:20;
   color:#1616B5;
 }
+
+/*texte*/
+.intro
+{
+  color:black;
+}
+
+
+
+
 /* Container 1*/
 .resume-container {
     display: flex;
