@@ -8,8 +8,9 @@
 {
   display: flex;
   align-items: flex-start;
-    max-width: 1200px;
+  max-width: 1200px;
   flex-direction:linear;
+  gap:20px;
 }
 .rechercheT2
 {
@@ -23,4 +24,32 @@
   margin-top:20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+}
+
+
+
+
+body
+{
+  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/Photographe-paysage-clermont-ferrand.jpg?v=1738577297124");
+  color:#e1a000;
+  --color-text-header: #2800FF;
+  --color-primary: #FFFF00;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
+  text-align:center;
+  background-repeat:no-repeat ;
+}
+.texte1
+{
+  font-size:15;
+  color:white;
+}
+.twt1
+{
+  font-size:20;
+  color:#1616B5;
 }
