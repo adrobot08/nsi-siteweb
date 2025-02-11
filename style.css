@@ -56,7 +56,7 @@ img:hover
 /*entre header et div-box*/
 .intro
 {
-  color:;
+  color:#8bddb1;
 }
 .texte1
 {
@@ -70,8 +70,13 @@ img:hover
 }
 .txt2
 {
-  color:white;
+  color:#8bddb1;
   font-size:30;
+}
+.credit
+{
+  color:#8bddb1;
+  font-size:12px;
 }
 
 
