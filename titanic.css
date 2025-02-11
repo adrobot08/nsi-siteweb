@@ -8,24 +8,19 @@
 {
   display: flex;
   align-items: flex-start;
-   background-color:red;
-    background-repeat:no-repeat ;
-  padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     max-width: 1200px;
-    width: 100%;
-    min-height: 400px;
   flex-direction:linear;
 }
 .resume-containerT2
 {
   display:flex;
   align-items:flex-start;
-  background-color:black;
-  color:white;
-  padding:1px;
-  max-width:50px;
-  min-height:50px;
+  background-color:#f0c653;
+  color:#f2751e;
+  padding:10px;
+  min-width:10px;
+  min-height:10px;
   margin-top:20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
