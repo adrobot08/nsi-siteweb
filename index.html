@@ -12,9 +12,9 @@
     <script src="/script.js" defer></script>
   </head>
   <header>
-    <button onclick="toggleMusic()">🎵 Play / Pause</button>
+    <button onclick="toggleMusic()">🎵Lancer/stopper la musique</button>
 <audio id="background-music" loop>
-    <source src="musique.mp3" type="audio/mpeg">
+    <source src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/Jean.m4a?v=1739307633184" type="audio/mpeg">
 </audio>
     
     <h1 id="titre">Histoire-Navales.com</h1>
@@ -55,6 +55,17 @@
        
     </div>
     
+    <script>
+    function toggleMusic() {
+        let music = document.getElementById("background-music");
+        if (music.paused) {
+            music.play();
+        } else {
+            music.pause();
+        }
+    }
+</script>
+
   </header>
   <body>
     <a class="intro">
