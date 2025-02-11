@@ -1,3 +1,9 @@
+.header
+{
+  color:white;
+}
+
+/*accés rapides Chapitres*/
 .resume-containerT1
 {
   display: flex;
@@ -10,4 +16,16 @@
     max-width: 1200px;
     width: 100%;
     min-height: 400px;
+  flex-direction:linear;
+}
+.resume-containerT2
+{
+  display:flex;
+  align-items:flex-start;
+  background-color:black;
+  color:white;
+  padding:1px;
+  max-width:50px;
+  min-height:50px;
+  margin-top:20px;
 }
