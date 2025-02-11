@@ -1,56 +1,90 @@
-.header
+.acceuil
 {
-  color:white;
-}
-
-/*accés rapides Chapitres*/
-.recherche1
-{
-  display: flex;
-  align-items: flex-start;
-  max-width: 1200px;
-  justify-content:center;
-  flex-direction:linear;
-  gap:20px;
-}
-.recherche2
-{
-  display:flex;
-  align-items:flex-start;
-  background-color:#f0c653;
-  color:#f3f3f3;
-  padding:10px;
-  min-width:10px;
-  min-height:10px;
-  margin-top:20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  border-radius: 10px;
-}
-
-
-
-
-body
-{
-  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/Photographe-paysage-clermont-ferrand.jpg?v=1738577297124");
-  color:#e1a000;
-  --color-text-header: #2800FF;
-  --color-primary: #FFFF00;
-  --wrapper-height: 87vh;
-  --image-max-width: 300px;
-  --image-margin: 3rem;
-  --font-family: "HK Grotesk";
-  --font-family-header: "HK Grotesk";
   text-align:center;
-  background-repeat:no-repeat ;
 }
-.texte1
-{
-  font-size:15;
-  color:white;
+.container {
+  display: flex;
+  flex-direction: column;
 }
-.twt1
-{
-  font-size:20;
-  color:#1616B5;
+
+.container-body {
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;         
+  cursor: pointer;        
+}
+
+a:hover {
+  text-decoration: none; 
+  color: inherit;            
+}
+
+
+.header {
+  background-image: URL("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/titan.webp?v=1739306545675");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+
+.upper {
+  flex: 5;
+  display: flex;
+  justify-content: end; 
+  align-items: start; 
+}
+
+.lower {
+  flex: 1;
+  display: flex;
+  align-content: center;
+  justify-content: center
+}
+
+.lien {
+  color: #99BBDD;
+  margin: 16px;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lien:hover {
+    border-top: 2px solid #336699;
+    border-bottom: 2px solid #336699;
+    cursor: pointer
+}
+
+.titre {
+  font-size: 45px;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 5%;
+  margin-right: 5%;
+  color: white
+}
+
+h2 {
+  color: #336699; 
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #336699; 
 }
