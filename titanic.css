@@ -4,19 +4,19 @@
 }
 
 /*accés rapides Chapitres*/
-.resume-containerT1
+.rechercheT1
 {
   display: flex;
   align-items: flex-start;
     max-width: 1200px;
   flex-direction:linear;
 }
-.resume-containerT2
+.rechercheT2
 {
   display:flex;
   align-items:flex-start;
   background-color:#f0c653;
-  color:#f2751e;
+  color:#ff0000;
   padding:10px;
   min-width:10px;
   min-height:10px;
