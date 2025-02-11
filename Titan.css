@@ -1,7 +1,4 @@
-.acceuil
-{
-  text-align:center;
-}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -23,6 +20,11 @@ a {
 a:hover {
   text-decoration: none; 
   color: inherit;            
+}
+
+.home {
+  margin-top: 1%;
+  margin-left: 2%
 }
 
 
