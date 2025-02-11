@@ -9,7 +9,7 @@
   display: flex;
   align-items: flex-start;
   max-width: 1200px;
-  padding:20px;
+  justify-content:center;
   flex-direction:linear;
   gap:20px;
 }
