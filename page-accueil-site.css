@@ -23,6 +23,11 @@
   
 }
 
+header
+{
+  background-color:pink;
+  min-height:100px;
+}
 /*body*/
 body
 {
@@ -33,9 +38,6 @@ body
   width: 100%;
   color:#e1a000;
   text-align:center;
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
   margin: 0;
 }
 
@@ -57,7 +59,7 @@ img:hover
 
 .texte1
 {
-  font-size:15;
+  font-size:20px;
   color:white;
 }
 .twt1
@@ -152,4 +154,12 @@ boutton
     flex-direction: column;
   padding:10px;
   margin-right:30px;
+}
+
+
+
+.highlight
+{
+  font-weight: bold;
+  color: #b8860b; 
 }
