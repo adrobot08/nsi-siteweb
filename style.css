@@ -1,4 +1,4 @@
-/*accés rapides Chapitres*/
+/*accés pages*/
 .rechercheP1
 {
   display: flex;
@@ -50,12 +50,7 @@ img:hover
   font-size:40px;
   text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
 }
-/*entre header et div-box*/
-.intro
-{
-  color:#8bddb1;
-  size:15px;
-}
+
 .texte1
 {
   font-size:15;
