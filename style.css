@@ -1,0 +1,41 @@
+/*accés pages*/
+.rechercheP1
+{
+  display: flex;
+  align-items: flex-start;
+  max-width: 1320px;
+  flex-direction:linear;
+  gap:20px;
+  justify-content:center;
+}
+.rechercheP2
+{
+  display:flex;
+  align-items:flex-start;
+  color:#f3f3f3;
+  padding:10px;
+  min-width:10px;
+  min-height:10px;
+  margin-top:20px;
+  border-radius: 10px;
+  
+}
+
+header
+{
+  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/carte.jpg?v=1740483415666");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+/*body*/
+body
+{
+  color:#e1a000;
+  text-align:center;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}

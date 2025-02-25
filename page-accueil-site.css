@@ -27,6 +27,10 @@
 body
 {
   background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/Photographe-paysage-clermont-ferrand.jpg?v=1738577297124");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
   color:#e1a000;
   text-align:center;
   background-size: cover;
