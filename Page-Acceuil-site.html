@@ -7,11 +7,133 @@
   <link rel="stylesheet" href="page-accueil-site.css">
   <title>Histoires Navales.com</title>
 </head>
-<header>
-  c
-</header>
-<body>
+
+  <header>
+    <button onclick="toggleMusic()">🎵Lancer/stopper la musique</button>
+<audio id="background-music" loop>
+    <source src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/Jean.m4a?v=1739307633184" type="audio/mpeg">
+</audio>
     
-  
-</body>
+    <h1 id="titre">Histoire-Navales.com</h1>
+    <h3>
+      Bienvenue sur Histoire Navales, sur ce site nous parlons de differentes histoires dans le monde du naval
+    </h3>
+    
+    <div class="rechercheP1">
+      <a href="#Titanic">
+         <div class="rechercheP2">
+        Le Titanic
+        </div>
+      </a>
+       
+      <a href="#Titan">
+        <div class="rechercheP2">
+        Le Titan
+        </div>
+      </a>
+       
+      <a href="">
+         <div class="rechercheP2">
+        c
+        </div>
+      </a>
+      
+      <a href="#credit">
+         <div class="rechercheP2">
+        Crédits
+        </div>
+      </a>
+       
+      <a href="#source">
+         <div class="rechercheP2">
+        Sources
+        </div>
+      </a>
+       
+    </div>
+    
+    <script>
+    function toggleMusic() {
+        let music = document.getElementById("background-music");
+        if (music.paused) {
+            music.play();
+        } else {
+            music.pause();
+        }
+    }
+</script>
+    
+  </header>
+  <body>
+    <br/>
+    <a id="Titanic" class="titre">
+    Le Titanic
+    </a>
+    <div class="resume-container">
+        <div class="image-section">
+            <a href="titanic.html"><image src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/f29er32ls6ia1.webp?v=1738581241195" alt="tit1" class="image1"/></a>
+            <br/>
+            <a href="titanic.html"><image src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/titanic2.jpg?v=1738141196792" alt="tit2" class="image2"/></a>
+        </div>
+      <div class="resume-container2">
+        <p class="texte1">
+          edfd
+        </p>
+        <p class="twt1">
+        Pour plus découvrir la passionante histoire du Titanic cliquez sur ces images
+        </p>
+      </div>
+    </div>
+    <a class="txt2">
+      Le Titanic est donc ...
+    </a>
+    <br/>
+    <a id="Titan" class="titre">
+    Le Titan
+    </a>
+    <div class="resume-container3">
+      <div class="image-section2">
+        <a href="Titan.html"><Image src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/t%C3%A9l%C3%A9charger.jpg?v=1738692329732" alt="titan1" class="image3"/></a>
+          <br/>
+        <a href="Titan.html"><Image src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/OIP.jpg?v=1738692335880" alt="titan2" class="image4"/></a>
+      </div>
+      <div class="resume-container4">
+          <p class="texte1" >
+            EDFVbfsdtcfghj
+          </p>
+          <p class="twt1">
+            Pour plus découvrir sur l'histoire du Titan cliquez sur ces images
+          </p>
+      </div>
+    </div>
+    <a class="txt2">
+      sddsf
+    </a>
+    <br/>
+    <a href="#titre">début</a>
+    <br>
+    <a id="credit" class="titre">
+      Crédit
+    </a>
+    <br/>
+    <a class="credit">
+    <u>Site crée par :</u>
+      <br/>
+      Nicola Pinto Ramos
+      <br/>
+      Adrien Rognier
+      <br/>
+      Jacques De Lapisse
+    </a>
+    <br/>
+    <a class="titre" id="source">
+      Sources :
+    </a>
+    <br/>
+    <a class="credit">
+      Wikipedia :...
+      <br/>
+      .. : ...
+    </a>
+  </body>
 </html>  
