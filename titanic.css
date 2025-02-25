@@ -99,3 +99,8 @@ body
   background-color:black;
   font-family:"Courier",serif;
 }
+
+td
+{
+  color:white;
+}
