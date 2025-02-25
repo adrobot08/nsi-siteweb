@@ -28,14 +28,24 @@ header
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
+  color:#e1a000;
 }
 /*body*/
 body
 {
-  color:#e1a000;
+  color:black;
   text-align:center;
   background-size: cover;
   background-position: center;
   height: 100vh;
   margin: 0;
+}
+.texte1
+{
+  font-size:15;
+}
+.truc1
+{
+  color:#e1a000;
+  text-decoration: underline;
 }
