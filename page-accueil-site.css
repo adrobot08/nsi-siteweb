@@ -1,0 +1,151 @@
+/*accés pages*/
+.rechercheP1
+{
+  display: flex;
+  align-items: flex-start;
+  max-width: 1320px;
+  flex-direction:linear;
+  gap:20px;
+  justify-content:center;
+}
+.rechercheP2
+{
+  display:flex;
+  align-items:flex-start;
+  background-color:#f0c653;
+  color:#f3f3f3;
+  padding:10px;
+  min-width:10px;
+  min-height:10px;
+  margin-top:20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  
+}
+
+/*body*/
+body
+{
+  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/Photographe-paysage-clermont-ferrand.jpg?v=1738577297124");
+  color:#e1a000;
+  text-align:center;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin: 0;
+}
+
+img 
+{
+  transition : .5s ease-in;
+  filter : grayscale(100%)
+}
+img:hover
+{
+  filter : grayscale(0%)
+}
+/*titres*/
+.titre
+{
+  font-size:40px;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.texte1
+{
+  font-size:15;
+  color:white;
+}
+.twt1
+{
+  font-size:20;
+  color:#1616B5;
+}
+.txt2
+{
+  color:#8bddb1;
+  font-size:15px;
+}
+.credit
+{
+  color:#8bddb1;
+  font-size:10px;
+}
+
+boutton
+{
+  toggle-boutton:red;
+}
+
+
+
+
+
+
+
+/* Container 1*/
+.resume-container {
+    display: flex;
+    align-items: flex-start;
+    background-image: url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/iceberg-5163649_1280.jpg?v=1738577094286");
+    background-repeat:no-repeat ;
+  padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    width: 100%;
+    min-height: 400px;
+}
+
+.image-section img {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid white;
+    margin-right: 10px;
+
+  flex-direction:column
+}
+
+.resume-container2 {
+    display: flex;
+    flex-direction: column;
+  padding:10px;
+  margin-right:30px;
+}
+
+/*2éme conteneur*/
+.resume-container3
+{
+  display: flex;
+    align-items: flex-start;
+    background-image :url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/photo-1437751059337-ea72d4f73fcf.jpg?v=1738577213381");
+    background-repeat:no-repeat ;
+  padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    max-width: 1200px;
+    width: 100%;
+    min-height: 400px;
+}
+
+.image-section2 img
+{
+  width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+    border: 2px solid white;
+    margin-right: 10px;
+
+  flex-direction:column
+}
+
+.resume-container4
+{
+  display: flex;
+    flex-direction: column;
+  padding:10px;
+  margin-right:30px;
+}
