@@ -25,17 +25,19 @@
 
 header
 {
+  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/Photographe-paysage-clermont-ferrand.jpg?v=1738577297124");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  
   background-color:pink;
   min-height:250px;
 }
 /*body*/
 body
 {
-  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/Photographe-paysage-clermont-ferrand.jpg?v=1738577297124");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
+  background-color:black;
   color:#e1a000;
   text-align:center;
   margin: 0;
@@ -91,16 +93,20 @@ boutton
 
 /* Container 1*/
 .resume-container {
-    display: flex;
-    align-items: flex-start;
-    background-image: url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/iceberg-5163649_1280.jpg?v=1738577094286");
-    background-repeat:no-repeat ;
+  display: flex;
+  align-items: flex-start;
+  background-image: url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/iceberg-5163649_1280.jpg?v=1738577094286");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  
   padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    max-width: 1200px;
-    width: 100%;
-    min-height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  width: 100%;
+  min-height: 400px;
 }
 
 .image-section img {
@@ -125,15 +131,19 @@ boutton
 .resume-container3
 {
   display: flex;
-    align-items: flex-start;
-    background-image :url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/photo-1437751059337-ea72d4f73fcf.jpg?v=1738577213381");
-    background-repeat:no-repeat ;
+  align-items: flex-start;
+  background-image :url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/photo-1437751059337-ea72d4f73fcf.jpg?v=1738577213381");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  
   padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-    max-width: 1200px;
-    width: 100%;
-    min-height: 400px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  width: 100%;
+  min-height: 400px;
 }
 
 .image-section2 img
