@@ -50,3 +50,31 @@ body
   color:#a2f1ee;
   text-decoration: underline;
 }
+
+.texte2
+{
+  ...
+}
+
+
+
+.p
+{
+  display: flex;
+  align-items: flex-start;
+  max-width: 1320px;
+  flex-direction:linear;
+  gap:20px;
+  justify-content:center;
+}
+.page
+{
+  display:flex;
+  align-items:flex-start;
+  padding:10px;
+  min-width:10px;
+  min-height:10px;
+  margin-top:20px;
+  border-radius: 10px;
+}
+  
