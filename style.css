@@ -91,4 +91,17 @@ body
   flex-direction:column;
   background-color:#a2f1ee;
 }
-  
+.pt
+{
+  display: flex;
+  align-items: flex-start;
+  max-width: 1320px;
+  flex-direction:linear;
+  gap:20px;
+  justify-content:center;
+  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/titanicolympique.jpg?v=1740506702836");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
