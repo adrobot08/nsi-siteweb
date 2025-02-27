@@ -28,7 +28,7 @@ header
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  color:#a2f1ee;
+  color:;
 }
 /*body*/
 body
@@ -54,7 +54,7 @@ body
 .texte2
 {
   font-size:30px;
-  color: ;
+  color:;
   text-decoration:underline;
 }
 
@@ -63,6 +63,16 @@ body
 .p
 {
   display: flex;
+  align-items:center;
+  max-width: 1320px;
+  flex-direction:column;
+  gap:20px;
+  justify-content:center;
+  
+}
+.p2
+{
+   display: flex;
   align-items: flex-start;
   max-width: 1320px;
   flex-direction:linear;
@@ -72,12 +82,13 @@ body
 .page
 {
   display:flex;
-  align-items:flex-start;
+  align-items:center;
   padding:10px;
   min-width:10px;
   min-height:10px;
   margin-top:20px;
   border-radius: 10px;
   flex-direction:column;
+  background-color:#a2f1ee;
 }
   
