@@ -94,6 +94,7 @@ body
   background-position: center;
   background-repeat: no-repeat;
   width: 95%;
+  color:white;
 }
 .p2
 {
@@ -101,11 +102,19 @@ body
   align-items:center;
   max-width: 1320px;
   flex-direction:linear;
-  gap:60px;
+  gap:200px;
   justify-content:center;
-  background-image:url("");
+  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/fondg.jpg?v=1740694849284");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 95%;
+  color:white;
+}
+
+
+.credit
+{
+  color:#0d83e5;
+  font-size:10px;
 }
