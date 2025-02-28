@@ -53,7 +53,7 @@ a:hover {
 }
 
 .lien {
-  color: #99BBDD;
+  color: #478dd4;
   margin: 16px;
   font-family: "Bodoni Moda", serif;
   font-weight: 900;
@@ -61,8 +61,8 @@ a:hover {
 }
 
 .lien:hover {
-    border-top: 2px solid #336699;
-    border-bottom: 2px solid #336699;
+    border-top: 2px solid #478dd4;
+    border-bottom: 2px solid #478dd4;
     cursor: pointer
 }
 
@@ -77,16 +77,75 @@ a:hover {
 }
 
 h2 {
-  color: #336699; 
+  color: #478dd4; 
   font-size: 24px;
 }
 
 p {
-  font-size: 18px;
   line-height: 1.6;
+  color: white;
+  text-align: justify;
 }
 
 .highlight {
   font-weight: bold;
-  color: #336699; 
+  color: #478dd4; 
+}
+
+body
+{
+  background-color:black;
+  font-family:"Courier",serif;
+  margin: 0
+}
+
+td
+{
+  color:white;
+}
+
+.prop
+{
+  color:white;
+}
+
+.link
+{
+  color:blue;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Fusionne les bordures des cellules */
+  font-family: Arial, sans-serif;
+  color: #333; /* Couleur du texte */
+}
+
+th, td {
+  padding: 12px 15px; /* Espacement interne des cellules */
+  text-align: left; /* Alignement du texte à gauche */
+  border-bottom: 1px solid white; /* Ligne blanche en bas de chaque cellule */
+}
+
+th {
+  background-color: #444; /* Couleur de fond de l'en-tête */
+  color: white; /* Couleur du texte de l'en-tête */
+  font-weight: bold; /* Texte en gras pour les en-têtes */
+}
+
+tr:hover {
+  background-color: #b8870b7e; /* Changement de couleur au survol */
+}
+
+/* Optionnel : Ajouter une bordure autour du tableau */
+table {
+  border: 1px solid white;
+}
+
+li {
+  color: white
+}
+
+img {
+  border-radius: 4px;
 }
