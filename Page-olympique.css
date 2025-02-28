@@ -24,14 +24,14 @@
 
 header
 {
-  background-image:url("");
+  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/olymacceuil.jpg?v=1740777397451");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   
   background-color:pink;
-  min-height:250px;
+  min-height:400px;
 }
 
 body
