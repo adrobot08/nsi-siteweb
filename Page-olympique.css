@@ -25,19 +25,20 @@
 header
 {
   background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/olymacceuil.jpg?v=1740777397451");
-  background-size: cover;
+           background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  
-  background-color:pink;
+  position: relative;
+  z-index: 1;
+  color: white;
+  text-align: center;
+  padding: 20px;
   min-height:400px;
 }
 
-body
-{
-  
-}
+body 
+
 .titre {
   font-size: 45px;
   font-family: "Bodoni Moda", serif;
@@ -55,3 +56,13 @@ body
 .color {
    color: #b8860b; 
 }
+
+ background-size: cover;
+            background-position: center;
+            filter: blur(8px);
+  z-index: -1;
+   position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
