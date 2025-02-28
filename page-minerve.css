@@ -38,3 +38,11 @@ body
 {
   
 }
+.titre {
+  font-size: 45px;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 5%;
+  margin-right: 5%
+}
