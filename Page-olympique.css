@@ -47,3 +47,11 @@ body
   margin-right: 5%;
   text-align:center;
 }
+.super-grand-titre {
+    font-size: 4em;
+    font-weight: bold;
+    color: #b8860b; 
+}
+.color {
+   color: #b8860b; 
+}
