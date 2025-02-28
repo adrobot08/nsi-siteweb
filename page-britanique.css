@@ -1,0 +1,49 @@
+.rechercheP1
+{
+  display: flex;
+  align-items: flex-start;
+  max-width: 1320px;
+  flex-direction:linear;
+  gap:20px;
+  justify-content:center;
+}
+.rechercheP2
+{
+  display:flex;
+  align-items:flex-start;
+  background-color:#f0c653;
+  color:#f3f3f3;
+  padding:10px;
+  min-width:10px;
+  min-height:10px;
+  margin-top:20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  
+}
+
+header
+{
+  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/britannique.jpg?v=1740609937151");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  
+  background-color:pink;
+  min-height:250px;
+}
+
+body
+{
+  text-align:center;
+}
+.titre {
+  font-size: 45px;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 5%;
+  margin-right: 5%;
+  text-align:center;
+}
