@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap" rel="stylesheet">
   <title>Histoires Navales.com</title>
 </head>
 
@@ -14,44 +17,45 @@
     <source src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/Jean.m4a?v=1739307633184" type="audio/mpeg">
 </audio>
     
-    <h1 id="titre">Histoire-Navales.com</h1>
-    <h3>
+    <h1 id="titre" class="titre">Histoire-Navales.com</h1>
+    <h3 style="margin-left: 500px; margin-right: 500px; color:black; font-size: 20px">
       Bienvenue sur Histoire Navales, sur ce site nous parlons de differentes histoires dans le monde du naval
     </h3>
     <br/>
     <br/>
     <div class="rechercheP1">
       <a href="#Titanic">
-         <div class="rechercheP2">
+         <div class="lien">
         Le RMS Titanic
         </div>
       </a>
        
       <a href="#Olympique">
-         <div class="rechercheP2">
+         <div class="lien">
         Le RMS Olympique
         </div>
       </a>
       
       <a href="#Britanique">
-         <div class="rechercheP2">
+         <div class="lien">
         Le RMS Britannique 
+        </div>
+      </a>
+
+      <a href="#Titan">
+        <div class="lien">
+        Le Titan
         </div>
       </a>
        
       <a href="#Minerve">
-        <div class="rechercheP2">
+        <div class="lien">
         La Minerve
         </div>
       </a>
        
-      <a href="#sous-marin">
-         <div class="rechercheP2">
-        Le ...
-        </div>
-      </a>
       <a href="#source">
-        <div class="rechercheP2">
+        <div class="lien">
           Crédits/Sources
         </div>
       </a>
@@ -70,55 +74,36 @@
     
 </header>
 <body>
-  <br/>
-    <a class="texte1">
-    Bienvenue sur la page d'acceuil de notre site <span class="truc1">Histoire-Navales.com</span> ici vous pouvez découvrir les différent histoires maritimes qui ont marqué l'histoire!!
-    </a>
-  <br/>
-  
-  <div class="p">
+  <div class="p" style="margin-top: 100px">
   <div class="pt">
     <div class="page">
-    
-      <center>
       <a class="texte2" id="Titanic">Le RMS Titanic</a>
-      <br/>
-      <a href="Page-Acceuil-site.html"><image src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/affiche.jpg?v=1740609122707" width="260" alt="tit2" class="image2"/></a>
-    </center>
+      <a href="titanic.html"><image src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/affiche.jpg?v=1740609122707" width="260" alt="tit2" class="image2"/></a>
     </div>
     <div class="page">
-      <center>
       <a class="texte2" id="Olympique">Le RMS Olympique</a>
-      <br/>
       <a href="Page-Olympique.html"><image src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/olympique%20construction.jpg?v=1740606774852"height="385" width="260" alt="tit2" class="image2"/></a>
-      </center> 
     </div>
     <div class="page">
-      <center>
       <a class="texte2" id="Britanique">Le RMS Britanique</a>
-      <br/>
       <a href="Page-Britanique.html"><image src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/Lebritannique.jpg?v=1740606784659"height="385" width="260" alt="tit2" class="image2"/></a>
-      </center>
     </div>
     </div>
     <div class="p2">
+      <div class="page">
+          <a class="texte2" id="Titan">Le Titan</a>
+          <a href="Titan.html"><image src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/479459962_18509699389004728_6954940238453201155_n.jpg?v=1740761700081"height="385" width="260" alt="tit2" class="image2"/></a>
+      </div>
+      <div class="page">
+          <a class="texte2" id="Minerve">La Minerve</a>
+          <a href="Page-Minerve.html"><image src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/minerev.jpg?v=1740694568074"height="385" width="260" alt="tit2" class="image2"/></a>
+      </div>
     <div class="page">
-      <center>
-      <a class="texte2" id="Minerve">La Minerve</a>
-      <br/>
-      <a href="Page-Minerve.html"><image src="https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/minerev.jpg?v=1740694568074"height="385" width="260" alt="tit2" class="image2"/></a>
-      </center>
-    </div>
-    <div class="page">
-      <center>
       <a class="texte2" id="sous-marin">Sous marins</a>
-      <br/>
-      
-      </center>
     </div>   
   </div>
   </div>
-  <a id="credit" class="titre">
+  <a id="credit">
       Crédit
     </a>
     <br/>
@@ -132,7 +117,7 @@
       Jacques De Lapisse
     </a>
     <br/>
-    <a class="titre" id="source">
+    <a id="source">
       Sources :
     </a>
     <br/>
