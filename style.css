@@ -120,7 +120,7 @@ body
   background-repeat: no-repeat;
   width: 95%;
   color: white;
-  gap:60px;
+ 
 }
 
 .pt::before, .p2::before {
@@ -137,15 +137,17 @@ body
 
 .pt > *, .p2 > * {
   position: relative;
-  z-index: 2;
+  z-index: 2; 
 }
 
 .pt {
   background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/titanicolympique.jpg?v=1740506702836");
+  gap:60px;
 }
 
 .p2 {
   background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/fondg.jpg?v=1740694849284");
+  gap:90px;
 }
 
 .credit
