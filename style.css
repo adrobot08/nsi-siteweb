@@ -40,12 +40,15 @@ a {
   font-family: "Bodoni Moda", serif;
   font-weight: 900;
   font-style: normal;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .lien:hover {
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-    cursor: pointer
+    cursor: pointer;
+    padding: 0;
 }
 
 header
