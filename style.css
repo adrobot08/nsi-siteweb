@@ -12,7 +12,6 @@
 {
   display: flex;
   align-items: flex-start;
-  max-width: 1320px;
   flex-direction:linear;
   gap:20px;
   justify-content:center;
@@ -115,7 +114,6 @@ body
   border-radius: 4px;
   display: flex;
   align-items: center;
-  max-width: 1320px;
   flex-direction: row;
   justify-content: center;
   background-size: cover;
@@ -144,13 +142,73 @@ body
 }
 
 .pt {
-  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/rms.webp?v=1740912312935");
-  gap:60px;
+  position: relative;
+  gap: 60px;
+  overflow: hidden; /* Pour s'assurer que la vidéo ne déborde pas */
+  width: 100%; /* Augmentation de la largeur */
+  min-height: 600px; /* Définir une hauteur minimale */
+  padding: 40px 20px; /* Ajouter du padding pour plus d'espace intérieur */
+  flex-direction: column; /* Changer la direction en colonne */
+  gap: 24px; /* Ajuster l'espace entre les éléments */
+}
+
+.pt .background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.pt::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.pt > * {
+  position: relative;
+  z-index: 2; 
+}
+
+/* On garde le reste tel quel */
+.pt > *:not(.background-video) {
+  position: relative;
+  z-index: 2; 
 }
 
 .p2 {
-  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/fondg.jpg?v=1740694849284");
-  gap:90px;
+  position: relative;
+  overflow: hidden; /* Pour s'assurer que la vidéo ne déborde pas */
+  width: 100%; /* Augmentation de la largeur */
+  min-height: 600px; /* Définir une hauteur minimale */
+  padding: 40px 20px; /* Ajouter du padding pour plus d'espace intérieur */
+  flex-direction: column; /* Changer la direction en colonne */
+  gap: 24px; /* Ajuster l'espace entre les éléments */
+}
+
+.p2 .background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* On garde le reste tel quel */
+.p2 > *:not(.background-video) {
+  position: relative;
+  z-index: 2; 
 }
 
 .credit
@@ -172,7 +230,6 @@ body
   justify-content: center;
   align-items: flex-start;
   gap: 100px;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -198,4 +255,78 @@ body
 
 .sources-section a:hover {
   text-decoration: underline;
+}
+
+/* Styles pour le header White Star Line */
+.wsl-header {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 20px auto; /* Réduire la marge en bas */
+  text-align: center;
+}
+
+.wsl-title {
+  font-family: "Bodoni Moda", serif;
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.wsl-description {
+  font-family: "Courier", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Style pour le conteneur des navires */
+.ships-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  width: 100%;
+}
+
+/* Styles pour l'en-tête des sous-marins */
+.submarines-header {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 20px auto; 
+  text-align: center;
+}
+
+.submarines-title {
+  font-family: "Bodoni Moda", serif;
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.submarines-description {
+  font-family: "Courier", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Style pour le conteneur des sous-marins */
+.submarines-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+  width: 100%;
 }
