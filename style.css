@@ -35,22 +35,25 @@ a {
 }
 
 .lien {
-  color: black;
+  color: rgba(255, 255, 255, 0.8);
   margin: 16px;
   font-family: "Bodoni Moda", serif;
   font-weight: 900;
   font-style: normal;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .lien:hover {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    cursor: pointer
+    border-top: 2px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    padding: 0;
 }
 
 header
 {
-  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/fond.avif?v=1740608006601");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 1) 85%), url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/fond.avif?v=1740608006601");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,7 +133,7 @@ body
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   border-radius: 4px;
   z-index: 1;
 }
@@ -141,7 +144,7 @@ body
 }
 
 .pt {
-  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/titanicolympique.jpg?v=1740506702836");
+  background-image:url("https://cdn.glitch.global/f5ce6009-1228-4be5-94bb-b3777fc53977/rms.webp?v=1740912312935");
   gap:60px;
 }
 
@@ -154,4 +157,45 @@ body
 {
   color:#0d83e5;
   font-size:10px;
+}
+
+/* Styles pour le footer */
+.footer-container {
+  width: 100%;
+  padding: 20px 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 40px;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 100px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.credits-section, .sources-section {
+  text-align: center;
+}
+
+.credits-section h3, .sources-section h3 {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.credits-section p, .sources-section p {
+  margin: 5px 0;
+  font-size: 12px;
+}
+
+.sources-section a {
+  color: #0d83e5;
+  text-decoration: none;
+}
+
+.sources-section a:hover {
+  text-decoration: underline;
 }
