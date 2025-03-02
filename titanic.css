@@ -40,6 +40,7 @@ a:hover {
 }
 
 .home {
+  color: white;
   margin-top: 1%;
   margin-left: 2%
 }
@@ -69,6 +70,7 @@ a:hover {
 }
 
 .titre {
+  color: white;
   font-size: 45px;
   font-family: "Bodoni Moda", serif;
   font-weight: 600;
