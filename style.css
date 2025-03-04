@@ -187,12 +187,12 @@ body
 
 .p2 {
   position: relative;
-  overflow: hidden; /* Pour s'assurer que la vidéo ne déborde pas */
-  width: 100%; /* Augmentation de la largeur */
-  min-height: 600px; /* Définir une hauteur minimale */
-  padding: 40px 20px; /* Ajouter du padding pour plus d'espace intérieur */
-  flex-direction: column; /* Changer la direction en colonne */
-  gap: 24px; /* Ajuster l'espace entre les éléments */
+  overflow: hidden; 
+  width: 100%; 
+  min-height: 600px; 
+  padding: 40px 20px; 
+  flex-direction: column; 
+  gap: 24px; 
 }
 
 .p2 .background-video {
@@ -329,4 +329,16 @@ body
   align-items: flex-start;
   gap: 60px;
   width: 100%;
+}
+
+.T1
+{
+  position: relative;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  background-size: cover;
+  gap: 60px;
 }
